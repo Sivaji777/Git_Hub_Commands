@@ -1,16 +1,10 @@
 import React from 'react'
-import { Pagination } from 'react-bootstrap'
-import Api from './ApiServices/Api'
-import Parent from './Components/Parent'
-import TokenApi from './Components/TokenApi'
-import Home from './MediaQueries/Home'
-import AgeGrid from './Pagination/AgeGrid'
-import PageNation from './Pagination/Page'
+import Git_Hub_Commands from './Components/Git_Hub_Commands'
 
 function App() {
   return (
     <div>
-      <Home />
+      <Git_Hub_Commands />
     </div>
   )
 }
