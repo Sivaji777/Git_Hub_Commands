@@ -23,7 +23,14 @@ function Git_Hub_Commands() {
         2) git push -u origin master 
         a) after clicking this command what ever we have all the project files will add git hub
       */}
-     
+
+       <h1> How to remove the origin git hub URL Access </h1>
+       {/*
+        Step:- 1
+        1) git remote
+        2) git remote remove origin
+       */}
+
        <h1>How add git hub username and main </h1>
        {/*
        1) git config --global user.name "YOUR NAME"
