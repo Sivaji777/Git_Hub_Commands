@@ -23,6 +23,18 @@ function Git_Hub_Commands() {
         2) git push -u origin master 
         a) after clicking this command what ever we have all the project files will add git hub
       */}
+     
+       <h1>How add git hub username and main </h1>
+       {/*
+       1) git config --global user.name "YOUR NAME"
+       2) git config --global user.email "YOUR EMAIL ADDRESS"
+       */}
+       
+       <h1>How check the current credentials</h1>
+       {/*
+        1) git config --global user.name
+        2) git config --global user.email
+       */}
 
     </div>
   )
