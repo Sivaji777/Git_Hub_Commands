@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { Pagination } from 'react-bootstrap'
+import Api from './ApiServices/Api'
+import Parent from './Components/Parent'
+import TokenApi from './Components/TokenApi'
+import Home from './MediaQueries/Home'
+import AgeGrid from './Pagination/AgeGrid'
+import PageNation from './Pagination/Page'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Home />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
