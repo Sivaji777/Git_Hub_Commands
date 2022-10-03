@@ -42,6 +42,20 @@ function Git_Hub_Commands() {
         1) git config --global user.name
         2) git config --global user.email
        */}
+ 
+       <h1>How to get back stashed changes without solving git pull merge conflicts</h1>
+      {/*
+        a) Senario : whenever you want take git pull from another branch and after taken git pull you got some merge conflicts you need resolve 
+          that and you need to push that code in git hub but you dont know hoe to merge the two branches code that time use this connamd
+        Step 1) you need to take pull from particulat branch
+            a) git pull origin API-Service
+            *  get back stashed changes without solving git pull merge conflicts
+            
+            b) git reset --hard 8bc00cd796c413c230dbc8f6f8e7acf09a392d18
+            
+            it will come back as`tess      
+      */}
+            
 
     </div>
   )
