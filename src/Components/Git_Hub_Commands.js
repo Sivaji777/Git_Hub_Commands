@@ -5,6 +5,15 @@ function Git_Hub_Commands() {
     <div>
       <h1>Git Hub Commands</h1>
       
+      <h1>How Push the Local Cangest To Main Branch</h1>
+      {/*
+         Steps:----
+         1) git checkout master
+         2) git pull               # to update the state to the latest remote master state
+         3) git merge develop      # to bring changes to local master from your develop branch
+         4) git push origin master # push current HEAD to remote master branch
+      */}
+    
       <h1>How To Commit The Visual Studio Code Commands</h1>
       {/* 
          Steps:---
