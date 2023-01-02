@@ -4,8 +4,12 @@ function Git_Hub_Commands() {
   return (
     <div>
       <h1>Git Hub Commands</h1>
-      
+      <h1>How to Delete Branch in Git hub</h1
       <h1>How Push the Local Cangest To Main Branch</h1>
+      {/*
+         Steps:----
+         1) git push origin --delete main 
+      */}
       {/*
          Steps:----
          1) git checkout master
