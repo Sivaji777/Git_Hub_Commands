@@ -81,7 +81,8 @@ function Git_Hub_Commands() {
         a) git branch <branch-name>
          * Creting and switching brch
         b) git checkout -b <branch-name>
-         
+        * After creting push the code in respective branch
+        c) git push -u origin <branch-name>
           
             
 
