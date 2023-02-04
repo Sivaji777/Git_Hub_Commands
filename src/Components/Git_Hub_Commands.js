@@ -75,6 +75,14 @@ function Git_Hub_Commands() {
             
             it will come back as`tess      
       */}
+      
+        <h1>How to crete local branch</h1>
+         * only creting purpose
+        a) git branch <branch-name>
+         * Creting and switching brch
+        b) git checkout -b <branch-name>
+         
+          
             
 
     </div>
