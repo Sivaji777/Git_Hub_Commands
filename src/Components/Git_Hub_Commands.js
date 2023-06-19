@@ -83,7 +83,19 @@ function Git_Hub_Commands() {
         b) git checkout -b <branch-name>
         * After creting push the code in respective branch
         c) git push -u origin <branch-name>
+
+        <h1>How to update particular version in node js</h1>
+          * Uninstall the current Node.js version
+          * nvm uninstall 20.3.0
           
+          * Install a supported Node.js version
+          * nvm install 16.10.0
+          
+          * Switch to the installed version
+          * nvm use 16.10.0
+          
+          * Verify the installation
+          * node --version
             
 
     </div>
