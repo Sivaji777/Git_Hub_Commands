@@ -96,6 +96,11 @@ function Git_Hub_Commands() {
           
           * Verify the installation
           * node --version
+
+          <h1>HOW TO REMOVE THE PARTICULAR FILE FRON THE COMMAND</h1> 
+          * git rm -r --cached node_modules
+          * git commit -m "Remove node_modules from the repository"
+          * git push origin main
             
 
     </div>
