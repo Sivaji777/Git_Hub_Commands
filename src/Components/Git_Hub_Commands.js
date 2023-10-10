@@ -101,7 +101,9 @@ function Git_Hub_Commands() {
           * git rm -r --cached node_modules
           * git commit -m "Remove node_modules from the repository"
           * git push origin main
-            
+          
+          <h1>HOW TO REMOVE PARTICULAR FILE</h1> 
+          * Remove-Item -Recurse -Force -Path node_modules
 
     </div>
   )
