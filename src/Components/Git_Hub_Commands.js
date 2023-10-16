@@ -105,6 +105,17 @@ function Git_Hub_Commands() {
           <h1>HOW TO REMOVE PARTICULAR FILE</h1> 
           * Remove-Item -Recurse -Force -Path node_modules
 
+          <h1>HOW TO SWITCH PARTICULAR COMMIT CODE</h1> 
+          1) Use the git log command:Run git log to see a list of commits. Each commit has a unique identifier called a hash.
+          * git log
+          2) Checkout the specific commit:Once you have identified the commit, use the git checkout command to switch to that commit. Replace <commit-hash> with the actual commit hash or a unique part of it.
+          * git checkout bc0b9d7867470f311b288bbebe7e2819980effe8
+          3) Create a new branch (optional):If you want to make changes based on this commit, it's recommended to create a new branch.
+          * git checkout -b Bug-Fix
+          4) Return to the latest commit (optional):After you've retrieved the code you need, you may want to go back to the latest commit.
+          * git checkout master  # or the name of your main branch
+          
+
     </div>
   )
 }
